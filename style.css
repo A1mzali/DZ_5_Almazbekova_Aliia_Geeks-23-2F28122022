@@ -1,0 +1,53 @@
+body{
+  margin: 0;
+  padding: 0;
+  box-sizing: 0;
+  display: flex;
+  justify-content: center;
+  background: rgb(112, 108, 101);
+  text-align: center;
+  background: url('./photo/pll1.jpg') no-repeat center;
+  min-height: 100vh;
+  background-size: cover;
+  align-items: center;
+  color: rgb(3, 14, 23);
+  
+}
+
+.container {
+  justify-content: center;
+  margin: auto;
+}
+
+
+.item {
+  display: block;
+   margin: auto;
+}
+
+button{
+  background-color: rgb(99, 143, 197);
+  width: 40vw;
+  height: 5vw;
+  border-radius: 10px;
+  padding: 10px;
+  cursor: pointer;  
+}
+
+.circle_item{
+  display: flex;
+  justify-content: center;
+}
+
+.circle{
+display: flex ;
+justify-content: center;
+ flex: 0 0 30px;
+ height: 30px;
+ border: 1px solid #ffffff;
+ border-radius: 50%;
+ padding: 10px;
+ margin: 10px;
+ background-color: rgb(65, 68, 149);
+align-items: center;
+}
